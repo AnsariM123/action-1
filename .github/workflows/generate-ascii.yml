@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Install Cowsay Program
-      run: sudo apt -get install cowsay -y
+      run: sudo apt-get install cowsay -y
 
     - name: Execute Cowsay CMD
       run: Cowsay -f lion "Run for cover, I am a LION... ROAR" >> lion.txt
